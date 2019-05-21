@@ -1,0 +1,28 @@
+{
+  "name": "todo_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrMX/ToDoOnlyVanilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrMX/ToDoOnlyVanilla/issues"
+  },
+  "homepage": "https://github.com/AlexandrMX/ToDoOnlyVanilla#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
