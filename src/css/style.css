@@ -9,14 +9,11 @@ h1 {
 .app-textarea{
     height: 150px;
     width: 350px;
-    /* display: flex; */
-    /* align-self:center ; */
 }
 .app-input-container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* text-align: center; */
 }
 .app-task-p{
     font-family: "Arial, Helvetica", sans-serif;
@@ -27,12 +24,11 @@ h1 {
     margin-bottom: 10px;
 
 }
+
 .app-input {
     width: 200px;
 }
-/* #app {
-    display: flex;
-} */
+
 .app-add-button {
     font-family: "Impact, Charcoal", sans-serif;
     font-size: 24px;
@@ -54,9 +50,6 @@ h1 {
     border: 1px solid black;
     width: 90%;
 }
-/* .app-item-container:first-child {
-    padding-left: 80px;
-} */
 .app-del-btn-placeholder {
     width:7%;
     margin: 10px;
@@ -66,21 +59,18 @@ h1 {
     margin: 10px;
     border: 1px solid black;
 }
- /* .app-task-list { 
-    display: flex;
-}  */
+
 li {
     padding: 0 15px;
     list-style-type: none;
-    /* border: 1px solid black; */
-    width: 30%;
+    width: 25%;
 }
 
 li:nth-child(2) {
     width: 25%;
 }
 li:nth-child(3) {
-    width: 55%;
+    width: 40%;
 }
 li:nth-child(4){
     width: 10%;
